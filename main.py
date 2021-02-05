@@ -13,7 +13,7 @@ clock = pygame.time.Clock()
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("carGame")
 
-
+background = pygame.image.load("pygame/racegame/img/", namehint="")
 while run:
     for event in pygame.event.get():
         if event.type == QUIT:
